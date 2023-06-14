@@ -16,7 +16,7 @@ const MovieApp = () => {
 
   return (
     <div className="w-full">
-      <div className="w-screen h-[30vh] lg:h-[50vh] relative">
+      <div className="w-screen h-[50vh] lg:h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh]  bg-black/60 z-10" />
         <Image
           className="absolute z-1"

@@ -15,7 +15,7 @@ const Slideshow = (props) => {
 
         prevArrow:(
             <div style={{width:"50px", marginRight: "-30px", cursor: "pointer"}}>
-                <svg xmlns="http://www.w3.org/2000/svg"
+                <svg className="w-8 lg:w-20" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
                 fill="#2e2e2e">
                     <path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/>
@@ -24,7 +24,7 @@ const Slideshow = (props) => {
         ),
         nextArrow:(
             <div style={{width:"50px", marginLeft: "-30px", cursor: "pointer"}}>
-                <svg xmlns="http://www.w3.org/2000/svg"
+                <svg className="w-8 m-4 lg:w-20 lg:m-0" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
                 fill="#2e2e2e">
                     <path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/>
@@ -34,7 +34,7 @@ const Slideshow = (props) => {
       }
   return (
     <div className="m-10">
-        <h1 className="text-center text-6xl font-bold pb-10 text-gray-700">
+        <h1 className="text-center text-2xl font-bold pb-10 text-gray-700 lg:text-6xl">
             Project <span className="text-[#007934]">Photos</span>
         </h1>
         <Zoom {...zoomInProperties}>

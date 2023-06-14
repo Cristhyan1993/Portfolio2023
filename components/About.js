@@ -19,7 +19,7 @@ const About = () => {
 
           </p>
           <p className='py-2 text-gray-600'>
-          Whenever I take a break from coding I entertain myself playing PlayStation. Crash Team Racing, Rocket League, Call of Duty and Fifa are my favourite games.
+          Whenever I take a break from coding I enjoy gaming on my own or as a team.
             For me it is also important to not only exercise the brain but the body too which is why I do CrossFit regularly. This definitely helps my having
             a 'never give up' mentality and facing new challenges such as learning to handstand walk.
   

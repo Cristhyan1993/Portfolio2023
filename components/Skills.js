@@ -89,14 +89,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/firebase.png"
+                  src="/../public/assets/skills/nextjs.png"
                   width="64"
                   height="64"
                   alt="skills"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>FIREBASE</h3>
+                <h3>NEXT JS</h3>
               </div>
             </div>
           </div>{" "}
@@ -119,14 +119,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/shopify.png"
+                  src="/../public/assets/skills/elephantsql.png"
                   width="64"
                   height="64"
                   alt="skills"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>SHOPIFY</h3>
+                <h3>ELEPHANT SQL</h3>
               </div>
             </div>
           </div>

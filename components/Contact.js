@@ -28,7 +28,7 @@ const Contact = () => {
                 <h2 className=" flex justify-center py-2 text-[#fdfe7d]">Cris Calderon</h2>
                 <p className="flex justify-center text-[#fdfe7d]">Web Developer</p>
                 <p className="flex justify-center py-4 text-[#fdfe7d]">
-                  Feel free to connect with me on LinkedIn or Github. You can also reach out to me by completing the contact form on the right hand side.{" "}
+                  Feel free to connect with me on LinkedIn or Github. You can also reach out to me by completing the contact form.{" "}
                 </p>
               </div>
               <div>

@@ -48,10 +48,11 @@ const Navbar = () => {
     className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
     {/* This is the header styling below */}
       <div className="max-w-[1240px] mx-auto flex justify-between items-center w-full h-full px-2 2xl:px-16">
+
       <Link href='/'><Image
-          src="/../public/assets/crisLogo.png"
+          src="/profileMain.png"
           alt="logo"
-          width="125"
+          width="65"
           height="50"
         /></Link>
         
@@ -99,9 +100,9 @@ const Navbar = () => {
           <div>
             <div className="flex w-sull items-center justify-between">
             <Link href='/'><Image
-                src="/../public/assets/ctr_logo.png"
-                width="87"
-                height="35"
+                src="/profileMain.png"
+                width="75"
+                height="75"
                 alt="logo"
               /></Link>
               
@@ -113,9 +114,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-[#fdfe7d] my-4">
-              <p className="w-[85%] md:-[90%] py-4 text-[#fdfe7d]">
-                Lets's build something together
-              </p>
+              {/* <p className="w-[85%] md:-[90%] py-4 text-[#fdfe7d]">
+                Lets's build something together!
+              </p> */}
             </div>
           </div>
           <div className="py-4">

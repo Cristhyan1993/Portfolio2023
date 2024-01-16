@@ -74,7 +74,7 @@ A blocker I encountered was the Unix timestamp provided by the API. I had to fin
         </Link>
       </div>
       {/* <Herosection/> */}
-      <Slideshow images = {images}/>
+      
       </div>
      
     

@@ -23,7 +23,7 @@ const Navbar = () => {
       setNavBg('transparent')
       setLinkColour('#eeeeee')
     } else {
-      setNavBg('#D52D1E')
+      setNavBg('#ff4747')
       setLinkColour('#eeeeee')
     }
   },[router])
@@ -45,21 +45,22 @@ const Navbar = () => {
   return (
     <div 
     style={{backgroundColor: `${navBg}`}}
-    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] font-changa' : 'fixed w-full h-20 z-[100] font-changa'}>
     {/* This is the header styling below */}
       <div className="max-w-[1240px] mx-auto flex justify-between items-center w-full h-full px-2 2xl:px-16">
 
       <Link href='/'><Image
-          src="/profileMain.png"
+          src="/profileMainNoBorder.png"
           alt="logo"
-          width="65"
-          height="50"
+          width="55"
+          height="55"
         /></Link>
         
         <div>
           <ul style={{color:`${linkColour}`}} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-base uppercase hover:border-b hover:scale-110 ease-in duration-300 text-[#fdfe7d]">Home</li>
+              
             </Link>
             <Link href="/#about">
               <li className="ml-10 text-base uppercase hover:border-b hover:scale-110 ease-in duration-300 text-[#fdfe7d]">About</li>
@@ -93,14 +94,14 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#D52D1E] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ff4747] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-sull items-center justify-between">
             <Link href='/'><Image
-                src="/profileMain.png"
+                src="/profileMainNoBorder.png"
                 width="75"
                 height="75"
                 alt="logo"
@@ -137,25 +138,7 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className="py-4 text-sm text-[#fdfe7d]">Contact</li>
               </Link>
             </ul>
-            <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#fdfe7d]">
-                Let's connect
-              </p>
-              <div className="flex items-center justify-between my-4 w-fullsm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-[#007934]">
-                <Link href='http://www.linkedin.com/in/criscalderon' target="_blank"><FaLinkedinIn /></Link>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-[#007934]">
-                <Link href='http://www.github.com/Cristhyan1993' target="_blank"><FaGithub /></Link>
-                </div>
-                {/* <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-[#007934]">
-                  <AiOutlineMail />
-                </div> */}
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-[#007934]">
-                <Link href='/#contact'><BsFillPersonLinesFill /></Link>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

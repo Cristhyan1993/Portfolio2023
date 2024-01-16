@@ -5,6 +5,9 @@ module.exports = {
 ],
   theme: {
     extend: {
+      fontFamily: {
+        'changa': ['Changa', 'sans-serif']
+      }
     //   animation:{
     //   slideL: "slideL 500ms linear",
     //   slideR: "slideR 500ms linear"

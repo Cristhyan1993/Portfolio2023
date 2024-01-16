@@ -7,20 +7,20 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full " >
-        <p className="text-xl tracking-widest uppercase text-[#D52B1E]">
+    <div id="contact" className="w-full font-changa">
+      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+        <p className="text-xl tracking-widest flex justify-center uppercase my-4 text-[#D52B1E]">
           Contact
         </p>
-        <h2 className="py-4 text-[#007934]" >Get In Touch</h2>
+        {/* <h2 className="py-4 flex justify-center text-[#007934]" >Get In Touch</h2> */}
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#D52B1E]">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md rounded-md bg-[#ff4747]">
             <div className="lg:p-4 h-full">
               <div>
                 <img
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://media.istockphoto.com/id/1223379165/es/foto/close-up-of-hands-typing-en-el-ordenador-port%C3%A1til.jpg?s=612x612&w=0&k=20&c=PZ19xKU8GpdtHsuQdpnwYCTaByGgxK6ZyimvmXaZDPs="
+                  className="p-2 w-full"
+                  src="https://cdn.pixabay.com/photo/2021/11/16/15/35/technology-6801334_1280.jpg"
                   alt="laptop"
                 />
               </div>
@@ -34,11 +34,11 @@ const Contact = () => {
               <div>
                 <p className="flex justify-center uppercase pt-8 text-[#fdfe7d]">Connect with me</p>
                 <div className="flex items-center justify-around  py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#fdfe7d] bg-[#007934]">
-                  <Link href='http://www.linkedin.com/in/criscalderon' target="_blank"><FaLinkedinIn /></Link>
+                  <div className="rounded-full p-3 cursor-pointer hover:scale-110 ease-in duration-300 text-[#fdfe7d] bg-[#007934]">
+                  <Link href='http://www.linkedin.com/in/criscalderon' target="_blank"><FaLinkedinIn size={30}/></Link>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#fdfe7d] bg-[#007934]">
-                  <Link href='http://www.github.com/Cristhyan1993' target="_blank"><FaGithub /></Link>
+                  <div className="rounded-full p-3 cursor-pointer hover:scale-110 ease-in duration-300 text-[#fdfe7d] bg-[#007934]">
+                  <Link href='http://www.github.com/Cristhyan1993' target="_blank"><FaGithub size={30}/></Link>
                   </div>
                   {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
@@ -51,9 +51,9 @@ const Contact = () => {
             </div>
           </div>
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#007934]">
+          <div className="col-span-3 w-full h-auto shadow-md rounded-md lg:p-4 bg-[#007934]">
             <div className="py-4">
-              <form action="https://formsubmit.co/537f46f4247bd928c6f2dc7bbb3ba911" method="POST">
+              <form action="https://formsubmit.co/864d2ec555002798834d3bcbea5d5310" method="POST">
                 <div className="flex flex-col w-full py-2 px-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2 text-[#fdfe7d]">Name</label>
@@ -102,16 +102,18 @@ const Contact = () => {
                     required placeholder="Hi my name is ... I would like to ask..."
                   ></textarea>
                 </div>
-                <button className=" w-full p-4 mt-4 text-[#fdfe7d] hover:scale-105 ease-in duration-300 bg-[#D52B1E]"type="submit">
+                <div className="flex justify-center">
+                <button className="w-1/2 mt-4 py-2 rounded-md text-[#fdfe7d] hover:scale-105 ease-in duration-300 bg-[#ff4747]"type="submit">
                   Send Message
                 </button>
+                </div>
               </form>
             </div>
           </div>
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-md p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#ff4747]">
               <HiOutlineChevronDoubleUp className="text-[#007934]" size={30} />
             </div>
           </Link>

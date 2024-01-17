@@ -1,14 +1,12 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
     <div id='about' className='w-full md:auto p-2 flex items-center py-16 font-changa'>
       <div className='max-w-[1240px] m-auto gap-8 translate-y-20'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#D52B1E] sm: flex justify-center'>
+          <p className='uppercase text-xl tracking-widest text-[#D52B1E] flex justify-center'>
             About
           </p>
           <p className='py-2 text-gray-600  sm: text-center'>

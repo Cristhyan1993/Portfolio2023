@@ -25,7 +25,7 @@ const PetBrb = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 text-gray-700">
           <p className="text-xl text-red-700">
-            Project
+            Project - NOTE this was made for desktop only. 
           </p>
           <h2 className="text-[#007934]">
             Overview

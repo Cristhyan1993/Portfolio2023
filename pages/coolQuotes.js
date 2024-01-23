@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/legacy/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import coolQuotes from "../public/CoolQuotesLanding.png"
+import coolQuotes from "../public/coolQuotesLanding.png"
 
 const CoolQuotes = () => {
   return (

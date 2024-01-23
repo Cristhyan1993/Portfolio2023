@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/legacy/image";
-import petBrB1 from "../public/petBrB1.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import Trailerz from "../public/TrailerzLanding.png"
 
-const PetBrb = () => {
+const Trailerz = () => {
   return (
     <div className="w-full font-changa">
       <div className="w-screen h-[50vh] lg:h=[40vh] relative">
@@ -13,12 +13,11 @@ const PetBrb = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={petBrB1}
+          src={Trailerz}
           alt="project"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-[#fdfe7d] z-10 p-2">
-          <h2 className="py-2">PetBrb</h2>
-          <h3>Full stack</h3>
+          <h2 className="py-2">Trailerz</h2>
         </div>
       </div>
 
@@ -34,23 +33,23 @@ const PetBrb = () => {
             What is it?
           </h3>
           <p>
-            PetBrb provides a solution for pet owners who need to find someone to care for their furry friends. The web-based application makes it simple for pet owners to locate and connect with pet sitters in their local area for services such as dog walking. This is the final project I worked along with 3 other members of my boot camp and had only 4 weeks to plan, design, create and present to a client.
-          </p>
+            Trailerz is a web app where the user can see the current top trending movies or search a movie of choice to view the movie trailer and other details such as the description and rating.          </p>
           <h3 className="pt-4 text-lg">
             Why did I create this?
           </h3>
           <p>
-            The brief for this project was to create an app which solves a problem currently facing the UK. Over the past 3 years there has been a massive increase in the number of pet owners in the UK and with workers returning to the office we created an app that we thought will reduce the number of pet abandonment. The app allows pet owners to find pet sitters by searching by city, budget and service.
+          I wanted to explore the TMDB api and thought it would be a good idea to make a web app where users can view the official movie trailer. I also wanted to try some CSS styles I learned to improve the appearance of a web app.
           </p>
           <h3 className="pt-4 text-lg">
             What did I learn?
           </h3>
           <p>
-            I learned a lot from this project as the first week was solely on planning, creating a manifesto, ideating, planning sprints, what we wanted in our MVP, what tech stacks we will use, market research, and UX/UI. The remaining 3 weeks where spent coding and creating the app working in an agile way as a team. Every day we had stand-ups to discuss any blockers and what we aimed to accomplish daily and documented what we did. </p>
-          <Link href="https://petbrb.vercel.app" target="_blank">
+          Making requests to third party APIs and how to integrate them into a project. Using CSS to neatly arrange items how I planned to.
+          </p>
+          <Link href="https://cris-trailerz.netlify.app/" target="_blank">
             <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#007934] text-[#fdfe7d] font-bold hover:scale-110 ease-in duration-300">Demo</button>
           </Link>
-          <Link href="https://github.com/SchoolOfCode/bc13_final-project_front-end-refactor" target="_blank">
+          <Link href="https://github.com/Cristhyan1993/trailerz" target="_blank">
             <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#D52B1E] text-[#fdfe7d] font-bold mx-5 hover:scale-110 ease-in duration-300">Code</button>
           </Link>
         </div>
@@ -74,31 +73,7 @@ const PetBrb = () => {
               </p>
               <p className="py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Node JS
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Elephant SQL
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Figma
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                NextAuth
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Next JS
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Vercel
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Leaflet
+                TMDB api
               </p>
             </div>
           </div>
@@ -113,4 +88,4 @@ const PetBrb = () => {
   );
 };
 
-export default PetBrb;
+export default Trailerz;

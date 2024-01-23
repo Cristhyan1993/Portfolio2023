@@ -24,10 +24,10 @@ const Contact = () => {
                   alt="laptop"
                 />
               </div>
-              <div className="flex-col">
+              <div className="flex-col mx-4">
                 <h2 className=" flex justify-center py-2 text-[#fdfe7d]">Cris Calderon</h2>
                 <p className="flex justify-center text-[#fdfe7d]">Web Developer</p>
-                <p className="flex justify-center py-4 text-[#fdfe7d]">
+                <p className="flex justify-center py-4 text-[#fdfe7d] text-center">
                   Feel free to connect with me on LinkedIn or Github. You can also reach out to me by completing the contact form.{" "}
                 </p>
               </div>
@@ -114,7 +114,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <div className="rounded-full shadow-md p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#ff4747]">
-              <HiOutlineChevronDoubleUp className="text-[#007934]" size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#fdfe7d]" size={30} />
             </div>
           </Link>
         </div>

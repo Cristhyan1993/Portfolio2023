@@ -5,47 +5,47 @@ const Skills = () => {
   const skillsImage = [
     {
       name: "Node",
-      src: "/../public/node.png"
+      src: "/node.png"
     },
     {
       name: "Material UI",
-      src: "/../public/materialui.png",
+      src: "/materialui.png",
     },
     {
       name: "Mongo DB",
-      src: "/../public/mongo.png",
+      src: "/mongo.png",
     },
     {
       name: "Elephant SQL",
-      src: "/../public/elephantsql.png",
+      src: "/elephantsql.png",
     },
     {
       name: "JavaScript",
-      src: "/../public/javascript.png",
+      src: "/javascript.png",
     },
     {
       name: "Next JS",
-      src: "/../public/nextjs.png",
+      src: "/nextjs.png",
     },
     {
       name: "Github",
-      src: "/../public/github.png",
+      src: "/github.png",
     },
     {
       name: "HTML",
-      src: "/../public/html.png",
+      src: "/html.png",
     },
     {
       name: "CSS",
-      src: "/../public/css.png",
+      src: "/css.png",
     },
     {
       name: "React",
-      src: "/../public/react.png",
+      src: "/react.png",
     },
     {
       name: "Tailwind",
-      src: "/../public/tailwind.png",
+      src: "/tailwind.png",
     },
   ];
 
@@ -57,15 +57,16 @@ const Skills = () => {
           Skills/Tech stack
         </p>
          <div className='grid md:grid-cols-5 sm:grid-cols-2 gap-2'>
-          {skillsImage.map(skill => {
+          {skillsImage.map((skill, index) => {
             return (
-              <div className="shadow-md flex flex-col justify-center p-2 bg-[#FDFED8]">
-                <div className="m-auto">
+              <div className="shadow-md flex flex-col justify-center p-2 bg-[#FDFED8]" key={index}>
+                <div className="m-auto" >
                   <Image
                     src={skill.src}
                     width="64"
                     height="64"
                     alt="skills"
+                    className="w-auto"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">

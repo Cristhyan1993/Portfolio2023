@@ -80,8 +80,6 @@ I enjoyed this project as it was a great fun working as a team and we could lear
             <p className="underline cursor-pointer text-lg">Back</p>
         </Link>
       </div>
-      {/* <Herosection/> */}
-      <Slideshow images={images}/>
     </div>
   );
 };

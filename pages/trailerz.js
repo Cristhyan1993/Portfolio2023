@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/legacy/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import TrailerzApp from "../public/trailerzLanding.png"
+import trailerz from "../public/trailerzLandingPage.png"
 
 const Trailerz = () => {
   return (
@@ -13,7 +13,7 @@ const Trailerz = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={TrailerzApp}
+          src={trailerz}
           alt="project"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-[#fdfe7d] z-10 p-2">

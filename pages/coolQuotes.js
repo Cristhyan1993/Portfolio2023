@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/legacy/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import coolQuotes from "../public/coolQuotesLanding.png"
+import coolQuotes from "../public/coolQuotesLandingPage.png"
 
 const CoolQuotes = () => {
   return (

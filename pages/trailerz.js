@@ -33,7 +33,7 @@ const Trailerz = () => {
             What is it?
           </h3>
           <p>
-            Trailerz is a web app where the user can see the current top trending movies or search a movie of choice to view the movie trailer and other details such as the description and rating.          </p>
+            Trailerz is a web app where the user can see the current top trending movies or search a movie to view the movie trailer and other details such as the description and rating.          </p>
           <h3 className="pt-4 text-lg">
             Why did I create this?
           </h3>

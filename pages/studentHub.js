@@ -4,15 +4,8 @@ import Image from "next/legacy/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-import Slideshow from "@/components/Slideshow";
 
 const StudentHubApp = () => {
-
-  const images = [
-   'studentHub1.png',
-   'studentHub2.png',
-   'studentHub3.png',
-  ];
 
   return (
     <div className="w-full">

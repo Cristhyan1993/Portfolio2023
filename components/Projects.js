@@ -1,6 +1,6 @@
 import React from "react";
 import trailerz from "../public/trailerzLandingPage.png";
-import seenIt from "../public/seen_it.png";
+import seenIt from "../public/seenIt.png";
 import coolQuotes from "../public/coolQuotesLandingPage.png";
 import petBrB1 from "../public/petBrB1.png";
 

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/legacy/image";
-import seenIt from "../public/seen_it.png";
+import seenIt from "../public/seenIt.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

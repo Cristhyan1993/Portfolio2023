@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import Image from "next/legacy/image";
 import { RiRadioButtonFill } from "react-icons/ri";
@@ -22,15 +24,18 @@ const CoolQuotes = () => {
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4 text-gray-700">
-          <p className="text-xl text-red-700">
-            Project
-          </p>
-          <h2 className="text-[#007934]">
-            Overview
-          </h2>
-          <h3 className="pt-4 text-lg">
+      <div className="max-w-[1240px] mx-4 md:mx-20 p-2">
+        <p className="text-md text-red-700">
+          Project - (Please note: there is a bug in the deployed version where new quotes do not display on the home page.)
+        </p>
+        <h2 className="text-[#007934]">
+          Overview
+        </h2>
+      </div>
+
+      <div className="max-w-[1240px] mx-4 md:mx-20 p-2 grid md:grid-cols-12 gap-2">
+        <div className="col-span-12 md:col-span-8 lg:col-span-10 text-gray-700">
+          <h3 className="text-lg">
             What is it?
           </h3>
           <p>
@@ -54,23 +59,23 @@ const CoolQuotes = () => {
             <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#D52B1E] text-[#fdfe7d] font-bold mx-5 hover:scale-110 ease-in duration-300">Code</button>
           </Link>
         </div>
-        <div className="col-span-4 md:col-span-1 drop-shadow-md rounded-sm p-4 bg-[#FDFED8] text-[#007934]">
+        <div className="col-span-12 md:col-span-4  lg:col-span-2 drop-shadow-md rounded-sm p-4 bg-[#FDFED8] text-[#007934]">
           <div className="p-2">
             <p className="text-center text-xl font-bold pb-2">
               Technologies
             </p>
-            <div className="grid frid-cols-3 md:grid-cols-1">
+            <div className="grid grid-cols-3 md:grid-cols-1">
               <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React
               </p>
               <p className="py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                JavaScript
+                TailWind
               </p>
               <p className="py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                TailWind
+                JavaScript
               </p>
               <p className="py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -87,9 +92,7 @@ const CoolQuotes = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer text-lg">Back</p>
-        </Link>
+        <p className="underline cursor-pointer text-lg w-12"><Link href="/#projects">Back</Link></p>
       </div>
     </div>
 

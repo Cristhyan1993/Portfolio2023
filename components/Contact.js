@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -6,14 +8,14 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 const Contact = () => {
   return (
     <div id="contact" className="w-full font-changa">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+      <div className="max-w-[1240px] m-auto px-2 py-16  mx-4 md:mx-20">
         <p className="text-xl tracking-widest flex justify-center uppercase my-4 text-[#D52B1E]">
           Contact
         </p>
         {/* <h2 className="py-4 flex justify-center text-[#007934]" >Get In Touch</h2> */}
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="grid md:grid-cols-5 gap-2">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md rounded-md bg-[#ff4747]">
+          <div className="col-span-3 md:col-span-2 w-full h-full shadow-md rounded-md bg-[#ff4747]">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -51,7 +53,7 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-md rounded-md lg:p-4 bg-[#007934]">
             <div className="py-4">
-              <form action="https://formsubmit.co/864d2ec555002798834d3bcbea5d5310" method="POST">
+              <form action="https://formsubmit.co/cristhyancalderon@hotmail.co.uk" method="POST">
                 <div className="flex flex-col w-full py-2 px-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2 text-[#fdfe7d]">Name</label>

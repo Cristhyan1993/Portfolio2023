@@ -52,11 +52,11 @@ const Skills = () => {
   return (
    
     <div id="skills" className="w-full my-4 font-changa">
-      <div className="max-w-[1240px] mx-auto translate-y-20">
+      <div className="max-w-[1240px] translate-y-20 mx-4 md:mx-20">
         <p className='uppercase text-xl tracking-widest py-4 text-[#D52B1E] flex justify-center'>
           Skills/Tech stack
         </p>
-         <div className='grid md:grid-cols-5 sm:grid-cols-2 gap-2'>
+         <div className='grid md:grid-cols-5 grid-cols-3 gap-2 mx-4'>
           {skillsImage.map((skill, index) => {
             return (
               <div className="shadow-md flex flex-col justify-center p-2 bg-[#FDFED8]" key={index}>
@@ -69,7 +69,7 @@ const Skills = () => {
                     className="w-auto"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center justify-center text-sm">
                   <h3>{skill.name}</h3>
                 </div>
               </div>

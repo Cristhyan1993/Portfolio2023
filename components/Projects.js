@@ -8,7 +8,7 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
 
-  const briefInfo = ["A web app where users can share their favourite quotes.","A web app where users can view movie trailers.","A full stack app where users can share, rate and review movies seen with friends.", "A full stack pet sitting app for pet carers/sitters."]
+  const briefInfo = ["A web app where users can share their favourite quotes.","A web app where users can view movie trailers.","A full stack app where users can share, rate and review movies seen to share with friends.", "A full stack pet sitting app for pet carers/sitters."]
   return (
     <div id="projects" className="w-full translate-y-20 flex justify-start font-changa">
       <div className="max-w-[1240px] mx-auto px-2 py-16">

@@ -31,7 +31,7 @@ const Trailerz = () => {
           </h2>
       </div>
 
-      <div className="max-w-[1240px] h-[490px] mx-4 md:mx-20 p-2 grid grid-cols-12 grid-rows-5 gap-2">
+      <div className="max-w-[1240px] mx-4 md:mx-20 p-2 grid grid-cols-12 grid-rows-5 gap-2">
         <div className="col-span-12 row-span-5 md:col-span-8 lg:col-span-9 text-gray-700">
           
           <h3 className="text-lg">

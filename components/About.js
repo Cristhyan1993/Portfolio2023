@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:auto p-2 flex items-center py-16 font-changa'>
+    <div id='about' className='w-full md:auto p-2 flex items-center justify-center py-16 font-changa'>
       <div className='max-w-[1240px] m-auto gap-8 translate-y-20 mx-4 md:mx-20'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#D52B1E] flex justify-center'>

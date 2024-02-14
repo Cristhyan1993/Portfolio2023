@@ -47,6 +47,10 @@ const Skills = () => {
       name: "Tailwind",
       src: "/tailwind.png",
     },
+    {
+      name: "Figma",
+      src: "/figma.png",
+    },
   ];
 
   return (

@@ -19,7 +19,7 @@ const SeenIt = () => {
           src={seenIt}
           alt="project"
         />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-[#fdfe7d] z-10 p-2">
+        <div className="absolute w-[300px] top-[70%] max-w-[1240px] md:left-[200px] left-[135px] right-[50%] translate-x-[-40%] translate-y-[-50%] text-[#fdfe7d] z-10 p-2">
           <h2 className="py-2">Seen It</h2>
           <h3>Full stack</h3>
         </div>
@@ -33,8 +33,8 @@ const SeenIt = () => {
           </h2>
       </div>
 
-      <div className="max-w-[1240px] mx-4 md:mx-20 p-2 grid grid-cols-12 gap-2">
-        <div className="col-span-12 md:col-span-8 lg:col-span-10 text-gray-700">
+      <div className="max-w-[1240px] mx-4 md:mx-20 p-2 grid grid-cols-12 grid-row-4 gap-2">
+        <div className="col-span-12 md:col-span-8 md:row-span-4 lg:col-span-9 text-gray-700">
           
           <h3 className="pt-4 text-lg">
             What is it?
@@ -71,12 +71,12 @@ const SeenIt = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-12 md:col-span-4 lg:col-span-2 drop-shadow-md rounded-sm p-4 bg-[#FDFED8] text-[#007934]">
+        <div className="col-span-12 md:col-span-4 lg:col-span-3 drop-shadow-md rounded-sm p-4 bg-[#FDFED8] text-[#007934]">
           <div className="p-2">
             <p className="text-center text-xl font-bold pb-2">
               Technologies
             </p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
+            <div className="grid grid-cols-3 md:grid-cols-1 md:row-span-3">
               {techStack.map((tech, index) => {
                 return (
                   <p key={index} className="py-2 flex items-center">
@@ -88,13 +88,8 @@ const SeenIt = () => {
             </div>
           </div>
         </div>
-        <p className="underline cursor-pointer text-lg w-12"><Link href="/#projects">Back</Link></p>
       </div>
-
-
-
-
-
+        <p className="mx-4 md:mx-20 p-2 underline cursor-pointer text-lg w-12"><Link href="/#projects">Back</Link></p>
     </div>
 
 

@@ -30,7 +30,7 @@ const PetBrb = () => {
           src={petBrB1}
           alt="project"
         />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-[#fdfe7d] z-10 p-2">
+        <div className="absolute w-[300px] top-[70%] max-w-[1240px] md:left-[200px] left-[135px] right-[50%] translate-x-[-40%] translate-y-[-50%] text-[#fdfe7d] z-10 p-2">
           <h2 className="py-2">PetBrb</h2>
           <h3>Full stack</h3>
         </div>
@@ -43,8 +43,8 @@ const PetBrb = () => {
             Overview
           </h2>
 </div>
-      <div className="max-w-[1240px] mx-4 md:mx-20 p-2 grid grid-cols-12 gap-2">
-        <div className="col-span-12 md:col-span-8 lg:col-span-10 text-gray-700">
+      <div className="max-w-[1240px] h-full mx-4 md:mx-20 p-2 grid grid-cols-12 grid-rows-4 md:grid-rows-3 gap-2">
+        <div className="col-span-12 row-span-3 md:col-span-8 md:row-span-5 lg:col-span-9 text-gray-700">
           <h3 className="pt-4 text-lg">
             What is it?
           </h3>
@@ -62,14 +62,9 @@ const PetBrb = () => {
           </h3>
           <p>
             I learned a lot from this project as the first week was solely on planning, creating a manifesto, ideating, planning sprints, what we wanted in our MVP, what tech stacks we will use, market research, and UX/UI. The remaining 3 weeks where spent coding and creating the app working in an agile way as a team. Every day we had stand-ups to discuss any blockers and what we aimed to accomplish daily and documented what we did. </p>
-          <Link href="https://petbrb.vercel.app" target="_blank">
-            <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#007934] text-[#fdfe7d] font-bold hover:scale-110 ease-in duration-300">Demo</button>
-          </Link>
-          <Link href="https://github.com/SchoolOfCode/bc13_final-project_front-end-refactor" target="_blank">
-            <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#D52B1E] text-[#fdfe7d] font-bold mx-5 hover:scale-110 ease-in duration-300">Code</button>
-          </Link>
+          
         </div>
-        <div className="col-span-12 md:col-span-4 lg:col-span-2 drop-shadow-md rounded-sm p-4 bg-[#FDFED8] text-[#007934]">
+        <div className="col-span-12 md:col-span-4 md:row-span-2 lg:col-span-3 drop-shadow-md rounded-sm p-4 mt-4 bg-[#FDFED8] text-[#007934]">
           <div className="p-2">
             <p className="text-center text-xl font-bold pb-2">
               Technologies
@@ -88,6 +83,14 @@ const PetBrb = () => {
             </div>
           </div>
         </div>
+       </div>
+       <div className="mx-4 md:mx-20 p-2">
+        <Link href="https://petbrb.vercel.app" target="_blank">
+            <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#007934] text-[#fdfe7d] font-bold hover:scale-110 ease-in duration-300">Demo</button>
+          </Link>
+          <Link href="https://github.com/SchoolOfCode/bc13_final-project_front-end-refactor" target="_blank">
+            <button className="text-center w-24 my-4 p-2 rounded-sm bg-[#D52B1E] text-[#fdfe7d] font-bold mx-5 hover:scale-110 ease-in duration-300">Code</button>
+          </Link>
         <p className="underline cursor-pointer text-lg w-12"><Link href="/#projects">Back</Link></p>
       </div>
     </div>

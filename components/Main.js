@@ -8,7 +8,7 @@ import TypeAnimationComp from "./service/TypeAnimation";
 const Main = () => {
   return (
     <div id="home" className="w-full text-center font-changa">
-      <div className="max-w-[1240px] w-full mx-auto p-2 flex justify-center items-center translate-y-20">
+      <div className="max-w-[1240px] w-full mx-auto p-4 flex justify-center items-center translate-y-20">
         <div>
           <h1 className="py-4 text-[#007934]">
             <TypeAnimationComp/>

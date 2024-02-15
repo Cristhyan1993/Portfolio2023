@@ -121,7 +121,7 @@ const Navbar = () => {
           <div className="py-4">
             <ul className="uppercase">
               <Link href="/">
-                <li className="py-4 text-sm text-[#fdfe7d]">Home</li>
+                <li className="py-4 text-sm text-[#fdfe7d]" onClick={() => setNav(false)}>Home</li>
               </Link>
               <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm text-[#fdfe7d]">About</li>
@@ -136,7 +136,6 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className="py-4 text-sm text-[#fdfe7d]">Contact</li>
               </Link>
             </ul>
-           
           </div>
         </div>
       </div>

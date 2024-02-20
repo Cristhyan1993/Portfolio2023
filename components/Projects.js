@@ -16,10 +16,10 @@ const Projects = () => {
         Projects
       </p>
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-2 w-full justify-center">
-        <ProjectItem title='Cool Quotes' description={briefInfo[0]} backgroundImg={coolQuotes} projectUrl='/coolQuotes'/>
-        <ProjectItem title='Trailerz' description={briefInfo[1]} backgroundImg={trailerz} projectUrl='/trailerz'/>
         <ProjectItem title='Seen It' description={briefInfo[2]} backgroundImg={seenIt} projectUrl='/seenIt'/>
         <ProjectItem title='PetBrb' description={briefInfo[3]} backgroundImg={petBrB1} projectUrl='/petBrb'/>
+        <ProjectItem title='Cool Quotes' description={briefInfo[0]} backgroundImg={coolQuotes} projectUrl='/coolQuotes'/>
+        <ProjectItem title='Trailerz' description={briefInfo[1]} backgroundImg={trailerz} projectUrl='/trailerz'/>
       </div>
       </div>
     </div>

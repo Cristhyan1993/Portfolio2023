@@ -10,7 +10,7 @@ const About = () => {
             About
           </p>
           <p className='py-2 text-gray-600  sm: text-center'>
-          Born in Bolivia but moved to the UK. Obtained a degree in civil engineering but now pursuing a career in web development. After completing the bootcamp in 2023 I continued to broaden my knowledge by exploring new tech stacks with the help from online courses and created my own <Link className='text-[#007934] font-bold underline' href='/#projects'>PROJECTS</Link>  which can be seen further down below.
+          Born in Bolivia but moved to the UK. Obtained a degree in civil engineering but now pursuing a career in web development. After completing a bootcamp in 2023 I continued to broaden my knowledge by exploring new tech stacks with the help from online courses and created my own <Link className='text-[#007934] font-bold underline' href='/#projects'>PROJECTS</Link>  which can be seen further down below.
           </p>
           <p className='py-2 text-gray-600 sm: text-center'>
           Outside of coding I am keen on football, PlayStation and for me it is as equally as importing to exercise the body which is why I do CrossFit/Weightlifting regularly.

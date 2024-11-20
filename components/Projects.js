@@ -2,7 +2,7 @@ import React from "react";
 import trailerz from "../public/trailerzLandingPage.png";
 import seenIt from "../public/seenIt.png";
 import coolQuotes from "../public/coolQuotesLandingPage.png";
-import myGMZ from "../public/my-GMZ.png";
+// import myGMZ from "../public/myGMZ.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "my-GMZ",
       description: "A video games blog",
-      image: myGMZ,
+      image: "/myGMZ.png",
       url: "/my-gmz"
     },
 

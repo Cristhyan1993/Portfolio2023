@@ -9,6 +9,8 @@ const ProjectItem = ({ project }) => {
           className="h-48"
           src={project.image}
           alt="project"
+          height={150}
+          width={300}
         />
         <h3 className="tracking-wider">{project.title}</h3>
         <p className='text-secondaryLight'>{project.description}</p>

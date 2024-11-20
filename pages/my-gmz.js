@@ -11,7 +11,7 @@ const myGMZ = () => {
       whyDidICreateThis: "Wanted to create a fully responsive web page and use the RAWG API to request and manipulate the data",
       whatDidILearn: "Learned how to create and reuse components, dynamic routing with the react router."
     },
-    image: "/my-GMZ.png",
+    image: "/myGMZ.png",
     links: {
       github: "https://github.com/Cristhyan1993/game_blog",
       url: "https://crisgameblog.netlify.app/"

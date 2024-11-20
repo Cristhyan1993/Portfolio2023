@@ -23,7 +23,7 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow);
   }, [])
   return (
-    <div className='fixed w-full h-15 md:h-20 shadow-xl z-[100] bg-primaryDark'>
+    <div className='fixed w-full h-15 md:h-22 shadow-xl z-[100] bg-primaryDark'>
       <div className="max-w-[1080px] mx-auto my-2 flex justify-between items-center w-full h-full px-3">
         <Link href='/' scroll={false}>
           <Image
@@ -31,7 +31,7 @@ const Navbar = () => {
             alt="logo"
             width="100"
             height="100"
-            className="max-h-12 md:max-h-16 w-auto"
+            className="max-h-12 md:max-h-16 w-auto flex"
           />
         </Link>
         <div>

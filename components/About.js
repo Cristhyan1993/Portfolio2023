@@ -1,21 +1,88 @@
 import React from 'react';
 import Link from 'next/link';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import { FaGraduationCap } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
+import { IoMdBriefcase } from "react-icons/io";
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:auto px-2 flex items-center justify-center py-16 font-changa'>
-      <div className='max-w-[1240px] m-auto gap-8 translate-y-20 mx-4 md:mx-20'>
-        <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#D52B1E] flex justify-center'>
-            About
-          </p>
-          <p className='py-2 text-gray-600  sm: text-center'>
-          Born in Bolivia but moved to the UK. Obtained a degree in civil engineering but now pursuing a career in web development. After completing a bootcamp in 2023 I continued to broaden my knowledge by exploring new tech stacks with the help from online courses and created my own <Link className='text-[#007934] font-bold underline' href='/#projects'>PROJECTS</Link>  which can be seen further down below.
-          </p>
-          <p className='py-2 text-gray-600 sm: text-center'>
-          Outside of coding I am keen on football, PlayStation and for me it is as equally as importing to exercise the body which is why I do CrossFit/Weightlifting regularly.
-          </p>
-        </div>
+    <div id='about' className='w-full my-[200px]'>
+      <div className='max-w-[1080px] mx-auto flex flex-col gap-8 translate-y-20'>
+        <h2 className='text-primaryLight uppercase tracking-widest text-center'>About</h2>
+        <VerticalTimeline className='text-primaryLight'>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="1997"
+            iconStyle={{ background: 'var(--primary)', color: 'var(--secondaryLight)' }}
+            icon={<IoLocationSharp />}
+          >
+            <div className='text-primaryDark'>
+              <h3 className="vertical-timeline-element-title">Moved to UK</h3>
+              <h4 className="vertical-timeline-element-subtitle">London</h4>
+              <p>
+                Started school and continued onto A-Levels.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2013 - 2016"
+            iconStyle={{ background: 'var(--primaryLight)', color: 'var(--secondaryLight)' }}
+            icon={<FaGraduationCap />}
+          >
+            <div className='text-primaryDark'>
+              <h3 className="vertical-timeline-element-title">Graduated from University</h3>
+              <h4 className="vertical-timeline-element-subtitle">Loughborough University</h4>
+              <p>
+                Obtained degree in Civil Engineering.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2019 - 2022"
+            iconStyle={{ background: 'var(--primaryDark)', color: 'var(--secondaryLight)' }}
+            icon={<IoMdBriefcase />}
+          >
+            <div className='text-primaryDark'>
+              <h3 className="vertical-timeline-element-title">Office Manager</h3>
+              <h4 className="vertical-timeline-element-subtitle">BAM Estate</h4>
+              <p>
+                Worked in a an Private Estate.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2022 - 2023"
+            iconStyle={{ background: 'var(--primaryLight)', color: 'var(--secondaryLight)' }}
+            icon={<FaGraduationCap />}
+          >
+            <div className='text-primaryDark'>
+              <h3 className="vertical-timeline-element-title">School of Code</h3>
+              <h4 className="vertical-timeline-element-subtitle">London</h4>
+              <p>
+                Completed a full-stack online coding bootcamp.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2023 - 2024"
+            iconStyle={{ background: 'var(--primaryLight)', color: 'var(--secondaryLight)' }}
+            icon={<FaGraduationCap />}
+          >
+            <div className='text-primaryDark'>
+              <h3 className="vertical-timeline-element-title">Codecademy</h3>
+              <h4 className="vertical-timeline-element-subtitle">London</h4>
+              <p>
+                Continued to expand my knowledge through online resources.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
       </div>
     </div>
   );

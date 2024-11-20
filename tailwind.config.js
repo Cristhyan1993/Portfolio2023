@@ -7,6 +7,14 @@ module.exports = {
     extend: {
       fontFamily: {
         'changa': ['Changa', 'sans-serif']
+      },
+      colors: {
+        primary: "var(--primary)",
+        primaryLight: "var(--primaryLight)",
+        primaryDark: "var(--primaryDark)",
+        secondary: "var(--secondary)",
+        secondaryLight: "var(--secondaryLight)",
+        secondaryDark: "var(--secondaryDark)"
       }
     //   animation:{
     //   slideL: "slideL 500ms linear",

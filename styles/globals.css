@@ -8,9 +8,18 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --primary: #17690B;
+  --primaryLight: #5AEB47;
+  --primaryDark: #082504;
+  --secondary: #E6F416;
+  --secondaryLight: #fdfe7d;
+  --secondaryDark: #988E01;
+}
+
 @layer base {
   body {
-    @apply bg-[#ffe570] text-[#1f2937] tracking-wide
+    @apply bg-gradient-to-b from-primaryDark via-primary to-primaryDark text-[#1f2937] tracking-wide font-changa
   }
 }
 
@@ -28,6 +37,10 @@ h2 {
 
 li {
   @apply cursor-pointer
+}
+
+.navbarLi {
+ @apply ml-10 text-base uppercase hover:border-b hover:scale-110 ease-in duration-300
 }
 /* button {
   @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#D52B1E] to-[#fa776e] text-white

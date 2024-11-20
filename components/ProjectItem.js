@@ -2,21 +2,17 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ProjectItem = ({ title, backgroundImg, projectUrl, description }) => {
+const ProjectItem = ({ project }) => {
   return (
-    <div className="relative flex flex-col items-center justify-start h-90 w-64 p-2 group drop-shadow-md bg-[#FDFED8]">
-    <h3 className="text-2xl  tracking-wider text-center text-[#1f2937]">{title}</h3>
+    <Link href={project.url} className="flex flex-col justify-start w-64 p-3 drop-shadow-lg bg-primary gap-4 cursor-pointer hover:scale-110 ease-in duration-300 text-secondary">
         <Image
-          className="my-2 h-48"
-          src={backgroundImg}
+          className="h-48"
+          src={project.image}
           alt="project"
         />
-        <p className='min-h-48 text-sm'>{description}</p>
-        <Link href={projectUrl}>
-          <p className="text-center my-4 p-2 rounded-md bg-[#007934] text-[#fdfe7d] font-bold  cursor-pointer hover:scale-110 ease-in duration-300">More Info</p>
-        </Link>
-    
-    </div>
+        <h3 className="tracking-wider">{project.title}</h3>
+        <p className='text-secondaryLight'>{project.description}</p>
+    </Link>
   )
 }
 

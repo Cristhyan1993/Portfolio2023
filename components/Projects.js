@@ -2,25 +2,52 @@ import React from "react";
 import trailerz from "../public/trailerzLandingPage.png";
 import seenIt from "../public/seenIt.png";
 import coolQuotes from "../public/coolQuotesLandingPage.png";
-import petBrB1 from "../public/petBrB1.png";
+import myGMZ from "../public/my-GMZ.PNG";
 
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
 
-  const briefInfo = ["A web app where users can share their favourite quotes.","A web app where users can view movie trailers.","A full stack app where users can share, rate and review movies seen to share with friends.", "A full stack pet sitting app for pet carers/sitters."]
+  const projects = [
+    {
+      title: "Seen It",
+      description: "A full stack app where users can share, rate and review movies.",
+      image: seenIt,
+      url: "/seenIt"
+    },
+    {
+      title: "Cool Quotes",
+      description: "A web app where users can share their favourite quotes.",
+      image: coolQuotes,
+      url: "/coolQuotes"
+    },
+    {
+      title: "Trailerz",
+      description: "A web app where users can view movie trailers.",
+      image: trailerz,
+      url: "/trailerz"
+    },
+    {
+      title: "my-GMZ",
+      description: "A video games blog",
+      image: myGMZ,
+      url: "/my-gmz"
+    },
+
+  ]
   return (
-    <div id="projects" className="w-full translate-y-20 flex justify-start font-changa">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
-      <p className="text-xl tracking-widest uppercase py-4 flex justify-center text-[#D52B1E]">
-        Projects
-      </p>
-      <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-2 w-full justify-center">
-        <ProjectItem title='Seen It' description={briefInfo[2]} backgroundImg={seenIt} projectUrl='/seenIt'/>
-        <ProjectItem title='PetBrb' description={briefInfo[3]} backgroundImg={petBrB1} projectUrl='/petBrb'/>
-        <ProjectItem title='Cool Quotes' description={briefInfo[0]} backgroundImg={coolQuotes} projectUrl='/coolQuotes'/>
-        <ProjectItem title='Trailerz' description={briefInfo[1]} backgroundImg={trailerz} projectUrl='/trailerz'/>
-      </div>
+    <div id="projects" className="w-full my-[200px]">
+      <div className="max-w-[1080px] mx-auto flex flex-col gap-8 translate-y-20">
+        <h2 className="text-primaryLight uppercase tracking-widest text-center">
+          Projects
+        </h2>
+        <div className="flex flex-wrap gap-4 w-full justify-center">
+          {
+            projects.map(project => (
+              <ProjectItem key={project.title} project={project} />
+            ))
+          }
+        </div>
       </div>
     </div>
   );

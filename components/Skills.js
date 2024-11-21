@@ -16,8 +16,8 @@ const Skills = () => {
       src: "/mongo.png",
     },
     {
-      name: "Elephant SQL",
-      src: "/elephantsql.png",
+      name: "MySQL",
+      src: "/mySQL.png",
     },
     {
       name: "JavaScript",

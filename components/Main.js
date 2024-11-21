@@ -27,7 +27,8 @@ const Main = () => {
               <Link href='http://www.github.com/Cristhyan1993' target="_blank"><FaGithub size={30} /></Link>
             </div>
             <div className="rounded-sm p-3 cursor-pointer hover:scale-110 ease-in duration-300 flex flex-1 bg-primaryDark text-secondaryLight justify-center">
-              <Link href='https://drive.google.com/file/d/11tCW1SS13UouMU4tdp51fwkmcSWGzDsK/view?usp=sharing' target="_blank"><BsFillPersonLinesFill size={30} />
+              <Link href='https://drive.google.com/file/d/1ZP1ebpFy-KYjIXeb-QaPN2tT4g1G50wN/view?usp=sharing' target="_blank">
+              <BsFillPersonLinesFill size={30} />
               </Link>
             </div>
           </div>

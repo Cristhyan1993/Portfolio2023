@@ -47,7 +47,7 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="https://drive.google.com/file/d/11tCW1SS13UouMU4tdp51fwkmcSWGzDsK/view" target="_blank">
+            <Link href="https://drive.google.com/file/d/1ZP1ebpFy-KYjIXeb-QaPN2tT4g1G50wN/view?usp=sharing" target="_blank">
               <li className="navbarLi">
                 CV
               </li>

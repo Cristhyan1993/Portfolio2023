@@ -8,8 +8,8 @@ const ngu = () => {
         technologies: ["JavaScript", "CSS", "React", "Next.js"],
         details: {
           whatIsIt: "A website where users can find information such as membership prices, the timetables and contact details of a CrossFit Gym.",
-          whyDidICreateThis: "To increase online presence and to attract more customers.",
-          whatDidILearn: "Responsiveness and attention to detail espceially in the design phase."
+          whyDidICreateThis: "To increase online presence and attract more customers.",
+          whatDidILearn: "Responsiveness and attention to detail especially in the design phase."
         },
         image: "/nguWebsite.png",
         links: {

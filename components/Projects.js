@@ -16,6 +16,18 @@ const Projects = () => {
       url: "/seenIt"
     },
     {
+      title: "my-GMZ",
+      description: "A video games blog",
+      image: "/myGMZ.png",
+      url: "/my-gmz"
+    },
+    {
+      title: "NGU Website",
+      description: "CrossFit Gym",
+      image: "/nguWebsite.png",
+      url: "/ngu-crossfit"
+    },
+    {
       title: "Cool Quotes",
       description: "A web app where users can share their favourite quotes.",
       image: coolQuotes,
@@ -27,13 +39,6 @@ const Projects = () => {
       image: trailerz,
       url: "/trailerz"
     },
-    {
-      title: "my-GMZ",
-      description: "A video games blog",
-      image: "/myGMZ.png",
-      url: "/my-gmz"
-    },
-
   ]
   return (
     <div id="projects" className="w-full my-[200px]">
@@ -41,7 +46,7 @@ const Projects = () => {
         <h2 className="text-primaryLight uppercase tracking-widest text-center">
           Projects
         </h2>
-        <div className="flex flex-wrap gap-4 w-full justify-center">
+        <div className="flex flex-wrap gap-4 w-full justify-center customAnimate">
           {
             projects.map(project => (
               <ProjectItem key={project.title} project={project} />

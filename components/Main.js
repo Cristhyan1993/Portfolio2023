@@ -15,7 +15,7 @@ const Main = () => {
           </h1>
           <h2 className="text-primary">Full Stack Web Developer</h2>
           <p className="text-secondaryLight">
-            Having completed a <span className="text-[#007934] font-bold">FULL STACK</span> bootcamp I learned the fundamentals of <span className="text-[#007934] font-bold">web development, version control, and collaborating as a team.</span> I relish the coding challenge & love learning something new every day.
+            Having completed a <span className="text-primary font-bold">FULL STACK</span> bootcamp I learned the fundamentals of <span className="text-primary font-bold">web development, version control, and collaborating as a team.</span> I relish the coding challenge & love learning something new every day.
           </p>
           <div className="flex flex-col justify-between gap-4 md:flex-row">
             <div className="rounded-sm p-3 cursor-pointer hover:scale-110 ease-in duration-300 flex flex-1 bg-red-800 text-secondaryLight justify-center">

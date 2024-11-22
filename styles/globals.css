@@ -42,6 +42,20 @@ li {
 .navbarLi {
  @apply ml-10 text-base uppercase hover:border-b hover:scale-110 ease-in duration-300
 }
-/* button {
-  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#D52B1E] to-[#fa776e] text-white
-} */
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1
+  }
+}
+
+.customAnimate {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}

@@ -59,7 +59,7 @@ const Skills = () => {
         <h2 className='text-primaryLight uppercase tracking-widest text-center'>
           Skills/Tech stack
         </h2>
-         <div className='flex flex-wrap gap-2 justify-center'>
+         <div className='flex flex-wrap gap-2 justify-center customAnimate'>
           {skillsImage.map((skill, index) => {
             return (
               <div className="shadow-lg flex flex-col w-[150px] h-auto p-8 gap-2 bg-primary" key={index}>
